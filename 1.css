@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    background-color: rgba(82, 75, 123, 0.9);
+}
+nav{
+background-image: linear-gradient(to bottom right,rgba(82, 75, 123, 0.9),rgb(7, 121, 235));
+    height: 70px;
+    width: 100%;
+    padding-top: 30px;
+    border-radius: 0%;
+    position: fixed;
+    
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:25px;
+}
+.settings{
+    float: right;
+}
+
+.cont{
+    padding-top: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+.cont h1{
+    color: aquamarine;
+}
+
+.collage{
+    float:right;
+    height: 12cm;
+    width: 14cm;
+    background-image: linear-gradient(to bottom right,rgb(74, 67, 114),rgba(29, 25, 53, 0.9));
+    margin-right:2cm;
+}
+.c1{
+    height: 6cm;
+    display: flex;
+    flex-direction:row;
+
+    align-items:flex-end;
+    padding-left: 30px;
+}
+.c1 img{
+    margin-top: 15 px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.c2{
+    height: 6cm;
+    align-content:flex-start;
+    display: flex;
+    flex-direction:row-reverse;
+
+    padding-right: 30px;
+    padding-left: 2px;
+
+}
+.c2 img{
+
+    padding-right: 10px;
+
+}
+.cont2{
+    background-color: rgb(30, 156, 210);
+}
+.cont2 img{
+    height: 10cm;
+    width:9cm;
+    padding-left: 50px;
+    float: left;
+}
